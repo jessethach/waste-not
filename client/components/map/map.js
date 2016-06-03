@@ -96,7 +96,6 @@ render() {
             }} >
               {activeMarkerInventory.map((marker, index) => {
                 const ref = `marker_${index}`;
-
                 return ( <Marker
                   key={index}
                   ref={ref}
