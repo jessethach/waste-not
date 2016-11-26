@@ -1,0 +1,26 @@
+.auth-input {
+  background-color: transparent;
+  padding: 12px 10px;
+  border: 2px solid $color-lightest-navy;
+  color: $color-lightest-navy;
+  &:focus {
+    border-color: white;
+    color: white;
+  }
+  &select {
+    color: white;
+  }
+  option {
+    background-color: $color-base-navy;
+  }
+}
+
+.button-submit {
+  @include btn-solid();
+  padding: 6px 20px 8px 20px;
+  margin: auto auto;
+}
+
+.center-control {
+  text-align: center;
+}
